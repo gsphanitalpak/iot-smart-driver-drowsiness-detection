@@ -5,8 +5,7 @@ An IoT-based driver drowsiness detection system, with real-time monitoring using
 ## Features
 - Real-time monitoring of driver alertness
 - Eye-blink detection using IR sensors
-- Steering wheel grip pressure monitoring
-- Buzzer alerts and seat vibration feedback
+- Buzzer alerts for feedback
 - Automatic SMS alerts to emergency contacts via GSM
 - Engine cut-off using relay module in critical situations
 
@@ -14,24 +13,22 @@ An IoT-based driver drowsiness detection system, with real-time monitoring using
 - Arduino UNO
 - GSM Module
 - Blink Sensor (IR Sensor)
-- Elastomeric Pressure Sensors
 - Buzzer
 - Relay Switch Module
 
 ## How It Works
 1. The blink sensor monitors eye movements to detect drowsiness.
-2. Pressure sensors track the grip on the steering wheel.
-3. If drowsiness signs are detected:
+2. If drowsiness signs are detected:
    - Buzzer alarm activates
-   - Vibration motor triggers
+   - buzzer triggers
    - SMS alert sent through GSM Module
    - Relay module can cut off engine power if no response
 
 ## Block Diagram
-![Block Diagram](./assets/block-diagram.png)
+![Block Diagram](./driver-drowsiness-iot.png)
 
 ## Demo
-[▶️ Watch the Demo Video](./assets/demo-video.mp4)
+[▶️ Watch the Demo Video](./assets/iot_working.mp4)
 
 ## Contributors
 - Jayshree Sharma
@@ -41,4 +38,4 @@ An IoT-based driver drowsiness detection system, with real-time monitoring using
 
 ---
 
-> Developed as part of the Internet of Things (Elective-1) course under the guidance of Mrs. Shubhangi Deokar.
+> Developed as part of the Internet of Things course.
