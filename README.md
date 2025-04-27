@@ -1,4 +1,4 @@
-# iot-smart-driver-drowsiness-detection
+# Smart Driver Drowsiness Detection System
 
 An IoT-based driver drowsiness detection system, with real-time monitoring using IR sensor and alerting via GSM module controlled by Arduino UNO to prevent accidents.
 
@@ -7,7 +7,7 @@ An IoT-based driver drowsiness detection system, with real-time monitoring using
 - Eye-blink detection using IR sensors
 - Buzzer alerts for feedback
 - Automatic SMS alerts to emergency contacts via GSM
-- Engine cut-off using relay module in critical situations
+- Engine cut-off using relay module
 
 ## Hardware Used
 - Arduino UNO
